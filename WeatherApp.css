@@ -2,7 +2,6 @@ body,
 html {
     padding: 0;
     margin: 0;
-    height: 100%;
     background: linear-gradient(to right, rgb(9, 10, 10), rgb(8, 23, 88) , rgb(21, 90, 180), rgb(185, 200, 218));
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,8 +24,7 @@ input {
 
 .main {
     display: flex;
-    justify-content: start;
-    margin-left: 300px;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -40,8 +38,8 @@ input {
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 5vh;
+    width: 5vh;
     margin-top: 70px;
 }
 
@@ -61,13 +59,12 @@ img {
 }
 
 .footer {
-    position: absolute;
-    bottom: 200px;
     display: grid;
     text-align: center;
+    justify-content: center;
     grid-template-columns: repeat(5, 200px);
-    left: 370px;
     gap: 50px;
+    margin-top: 5vh;
 }
 
 .future-weather {
